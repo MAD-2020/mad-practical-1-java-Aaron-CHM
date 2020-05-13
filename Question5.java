@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Question5
 {
@@ -27,6 +27,18 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+    try{
+      System.out.print("Enter the number of integers you will be entering: ");
+      int length = in.nextInt();
+      for (int l = length; l > 0; l--)
+      {
+        int number = in.nextInt();
+        myNumbers.add(number);
+      }
+      int occurrences = Collections.frequency(myNumbers, );
+    } finally {
+      in.close();
+    }
   }
 }
