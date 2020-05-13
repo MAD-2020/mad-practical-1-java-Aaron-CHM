@@ -12,7 +12,7 @@ public class Question3
      
     Scanner in = new Scanner(System.in);
     try{
-      System.out.println("Enter an integer: ");
+      System.out.print("Enter an integer: ");
       int integer = in.nextInt();
       int result = integer * integer;
       System.out.println("The result of your integer multiplied by itself is " + result);
